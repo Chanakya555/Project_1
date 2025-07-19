@@ -211,3 +211,11 @@ footer {
         padding: 20px 10px;
     }
 }
+
+body, header, section, footer {
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+nav button, #helloBtn, nav a, #contact a {
+    transition: background 0.3s ease, color 0.3s ease;
+}
