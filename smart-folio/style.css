@@ -171,6 +171,18 @@ footer {
     color: #FFFFFF;
 }
 
+.dark-mode section h2 {
+    color: #FFFC00;
+}
+
+.dark-mode #contact a {
+    color: #00C2FF;
+}
+
+.dark-mode #contact a:hover {
+    color: #FFFC00;
+}
+
 .dark-mode footer {
     background: #1E1E1E;
     color: #FFFFFF;
