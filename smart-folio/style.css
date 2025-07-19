@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: #1a0330;
-    color: #343434;
+    background: #FFFFFF;
+    color: #000000;
     font-family: 'Poppins', 'Segoe UI', sans-serif;
     line-height: 1.6;
     font-size: 16px;
@@ -19,11 +19,11 @@ a {
 
 #contact a {
     text-decoration: underline;
-    color: #343434;
+    color: #000000;
 }
 
 #contact a:hover {
-    color: #3270e3;
+    color: #00C2FF;
 }
 
 ul {
@@ -32,13 +32,14 @@ ul {
 }
 
 header {
-    background: #1a0330;
-    color: #ffffff;
+    background: #FFFFFF;
+    color: #000000;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .header-left {
@@ -63,20 +64,20 @@ nav {
 }
 
 nav a {
-    color: #ffffff;
+    color: #000000;
     margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #00ffd5;
+    color: #FFFC00;
 }
 
 nav button {
-    background: #00ffd5;
+    background: #FFFC00;
     border: none;
     padding: 8px 15px;
-    color: #1a0330;
+    color: #000000;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
@@ -85,11 +86,11 @@ nav button {
 }
 
 nav button:hover {
-    background: #00bfa5;
+    background: #FFD700;
 }
 
 section {
-    background: rgba(211, 211, 211, 0.923);
+    background: #F5F5F5;
     margin: 20px auto;
     padding: 40px 20px;
     width: 90%;
@@ -100,7 +101,7 @@ section {
 }
 
 section h2 {
-    color: #1c1c1c;
+    color: #121212;
     margin-bottom: 20px;
 }
 
@@ -114,8 +115,8 @@ img {
 }
 
 #helloBtn {
-    background: #3270e3;
-    color: #fff;
+    background: #FFFC00;
+    color: #000000;
     border: none;
     padding: 10px 20px;
     margin-top: 15px;
@@ -125,56 +126,75 @@ img {
 }
 
 #helloBtn:hover {
-    background: #2554b2;
+    background: #FFD700;
 }
 
 footer {
-    background: #1c1c1c;
-    color: #fff;
+    background: #F5F5F5;
+    color: #000000;
     text-align: center;
     padding: 15px;
     font-size: 0.9em;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
 
 .dark-mode {
-    background: #1c1c1c;
-    color: #f4f4f4;
+    background: #121212;
+    color: #FFFFFF;
+}
+
+.dark-mode header {
+    background: #121212;
+    color: #FFFFFF;
+    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+}
+
+.dark-mode nav a {
+    color: #FFFFFF;
+}
+
+.dark-mode nav a:hover {
+    color: #FFFC00;
+}
+
+.dark-mode nav button {
+    background: #FFFC00;
+    color: #121212;
+}
+
+.dark-mode nav button:hover {
+    background: #FFD700;
 }
 
 .dark-mode section {
-    background: #333;
-    color: #fff;
+    background: #1E1E1E;
+    color: #FFFFFF;
 }
 
 .dark-mode footer {
-    background: #000;
+    background: #1E1E1E;
+    color: #FFFFFF;
 }
 
 @media (max-width: 600px) {
-
     header {
         flex-direction: column;
         align-items: center;
     }
-
     .header-left {
         margin-bottom: 10px;
     }
-
     nav a {
         display: block;
         margin: 8px 0;
     }
-
     nav button {
         margin: 8px 0;
     }
-
     header h1 {
         display: block;
         margin-top: 10px;
     }
-
     section {
         padding: 20px 10px;
     }
