@@ -47,6 +47,7 @@ header {
 }
 
 header img {
+    width: 80px;
     height: 80px;
     border-radius: 10px;
     margin-right: 15px;
@@ -67,12 +68,28 @@ nav a {
     font-weight: bold;
 }
 
-a:hover {
-    color: #3a65c9;
+nav a:hover {
+    color: #00ffd5;
+}
+
+nav button {
+    background: #00ffd5;
+    border: none;
+    padding: 8px 15px;
+    color: #1a0330;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 0.3s ease;
+}
+
+nav button:hover {
+    background: #00bfa5;
 }
 
 section {
-    background: rgba(211, 211, 211, 0.786);
+    background: rgba(211, 211, 211, 0.923);
     margin: 20px auto;
     padding: 40px 20px;
     width: 90%;
@@ -96,12 +113,41 @@ img {
     margin-top: 15px;
 }
 
+#helloBtn {
+    background: #3270e3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#helloBtn:hover {
+    background: #2554b2;
+}
+
 footer {
     background: #1c1c1c;
     color: #fff;
     text-align: center;
     padding: 15px;
     font-size: 0.9em;
+}
+
+.dark-mode {
+    background: #1c1c1c;
+    color: #f4f4f4;
+}
+
+.dark-mode section {
+    background: #333;
+    color: #fff;
+}
+
+.dark-mode footer {
+    background: #000;
 }
 
 @media (max-width: 600px) {
@@ -117,6 +163,10 @@ footer {
 
     nav a {
         display: block;
+        margin: 8px 0;
+    }
+
+    nav button {
         margin: 8px 0;
     }
 
