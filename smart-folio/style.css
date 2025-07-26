@@ -117,3 +117,16 @@ footer {
     margin: 10px 0;
   }
 }
+
+body.light-theme nav a {
+  color: var(--accent-blue);
+}
+
+body.light-theme nav a:hover {
+  color: var(--primary-yellow);
+}
+
+body.light-theme footer {
+  background-color: var(--card-bg);
+  color: var(--text-light);
+}
