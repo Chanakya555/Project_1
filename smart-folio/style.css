@@ -1,221 +1,275 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #FFFFFF;
-    color: #000000;
-    font-family: 'Poppins', 'Segoe UI', sans-serif;
-    line-height: 1.6;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  color: #000000;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 #contact a {
-    text-decoration: underline;
-    color: #000000;
+  text-decoration: underline;
+  color: #000000;
 }
 
 #contact a:hover {
-    color: #00C2FF;
+  color: #00C2FF;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 header {
-    background: #FFFFFF;
-    color: #000000;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: #FFFFFF;
+  color: #000000;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .header-left {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 header img {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    margin-right: 15px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 15px;
 }
 
 header h1 {
-    font-size: 2em;
-    margin: 0;
+  font-size: 2em;
+  margin: 0;
 }
 
 nav {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 nav a {
-    color: #000000;
-    margin: 0 15px;
-    font-weight: bold;
+  color: #000000;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
 nav a:hover {
-    color: #FFFC00;
+  color: #FFFC00;
 }
 
 nav button {
-    background: #FFFC00;
-    border: none;
-    padding: 8px 15px;
-    color: #000000;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 10px;
-    transition: background 0.3s ease;
+  background: #FFFC00;
+  border: none;
+  padding: 8px 15px;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.3s ease;
 }
 
 nav button:hover {
-    background: #FFD700;
+  background: #FFD700;
 }
 
 section {
-    background: #F5F5F5;
-    margin: 20px auto;
-    padding: 40px 20px;
-    width: 90%;
-    max-width: 800px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    text-align: center;
+  background: #F5F5F5;
+  margin: 20px auto;
+  padding: 40px 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
 }
 
 section h2 {
-    color: #121212;
-    margin-bottom: 20px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  color: #121212;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #121212;
+  background-color: #FFFC00;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #FFD700;
 }
 
 img {
-    border-radius: 10px;
-}
-
-#introduction img {
-    border-radius: 50%;
-    margin-top: 15px;
+  border-radius: 10px;
 }
 
 #helloBtn {
-    background: #FFFC00;
-    color: #000000;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+  background: #FFFC00;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 #helloBtn:hover {
-    background: #FFD700;
+  background: #FFD700;
 }
 
 footer {
-    background: #F5F5F5;
-    color: #000000;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9em;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  background: #F5F5F5;
+  color: #000000;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
 
 .dark-mode {
-    background: #121212;
-    color: #FFFFFF;
+  background: #121212;
+  color: #FFFFFF;
 }
 
 .dark-mode header {
-    background: #121212;
-    color: #FFFFFF;
-    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+  background: #121212;
+  color: #FFFFFF;
+  box-shadow: 0 2px 5px rgba(255,255,255,0.1);
 }
 
 .dark-mode nav a {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .dark-mode nav a:hover {
-    color: #FFFC00;
+  color: #FFFC00;
 }
 
 .dark-mode nav button {
-    background: #FFFC00;
-    color: #121212;
+  background: #FFFC00;
+  color: #121212;
 }
 
 .dark-mode nav button:hover {
-    background: #FFD700;
+  background: #FFD700;
 }
 
 .dark-mode section {
-    background: #1E1E1E;
-    color: #FFFFFF;
+  background: #1E1E1E;
+  color: #FFFFFF;
 }
 
 .dark-mode section h2 {
-    color: #FFFC00;
+  color: #FFFC00;
 }
 
 .dark-mode #contact a {
-    color: #00C2FF;
+  color: #00C2FF;
 }
 
 .dark-mode #contact a:hover {
-    color: #FFFC00;
+  color: #FFFC00;
 }
 
 .dark-mode footer {
-    background: #1E1E1E;
-    color: #FFFFFF;
+  background: #1E1E1E;
+  color: #FFFFFF;
+}
+
+.dark-mode .project-card {
+  background: #2A2A2A;
+}
+
+.dark-mode .project-link {
+  color: #121212;
+  background-color: #FFFC00;
+}
+
+.dark-mode .project-link:hover {
+  background-color: #FFD700;
 }
 
 @media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-    .header-left {
-        margin-bottom: 10px;
-    }
-    nav a {
-        display: block;
-        margin: 8px 0;
-    }
-    nav button {
-        margin: 8px 0;
-    }
-    header h1 {
-        display: block;
-        margin-top: 10px;
-    }
-    section {
-        padding: 20px 10px;
-    }
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-left {
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  nav button {
+    margin: 8px 0;
+  }
+
+  header h1 {
+    display: block;
+    margin-top: 10px;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
 }
 
 body, header, section, footer {
-    transition: background 0.4s ease, color 0.4s ease;
+  transition: background 0.4s ease, color 0.4s ease;
 }
 
 nav button, #helloBtn, nav a, #contact a {
-    transition: background 0.3s ease, color 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
 }
